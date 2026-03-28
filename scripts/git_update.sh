@@ -3,7 +3,8 @@
 
 # Config
 REPO_DIR="$(dirname "$0")/.."   # assumes script is inside Scripts/
-COMMIT_MSG="${1:-'Update ATS_12'}"
+read -p "Enter commit message: " COMMIT_MSG
+COMMIT_MSG=${COMMIT_MSG:-"Update ATS_12"}
 
 # Move to repo root
 cd "$REPO_DIR" || { echo "Repo directory not found!"; exit 1; }
