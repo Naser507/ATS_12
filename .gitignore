@@ -1,0 +1,17 @@
+# Build and release
+Build/
+Release/
+
+# Temporary / extras
+z_Extras/
+
+# OS / editor files
+*.swp
+*.DS_Store
+*.bak
+*.log
+
+# Compiled binaries
+*.exe
+*.dll
+*.o
